@@ -21,18 +21,33 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
+h1{
+  font-size: 40px;
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-} 
+}/* flexbox */ 
 nav div{
   display:flex;
   justify-content: space-between;
   align-items: center;
   gap:16px;
+}/* flexbox */
+
+.hero{
+  max-width: 500px;
+  margin: 20px 0px;
+  padding: 0 16px;
 }
-/* flexbox */
+
+button{
+  margin:10px 0px;
+  padding:5px;
+  color:rgb(254, 254, 254);
+  background-color:rgb(227, 24, 75);
+  }
 
 footer {
   background-color: #ffffff;
