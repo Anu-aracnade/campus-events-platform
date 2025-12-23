@@ -38,24 +38,45 @@ nav div{
 
 .hero{
   max-width: 500px;
-  margin: 20px 0px;
+  margin: 24px 0px;
   padding: 0 16px;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
+
+.hero div p{
+  padding-top: 24px;
+}
+
+.event-card{
+  transition: transform 0.2 ease, box-shadow 0.2 ease;
+  padding: 16px;  
+}
+
+.event-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}/* hover effect */
 
 .grid{
   display:grid;
   grid-template-columns: 1fr 1fr;
   gap:1rem;
-  padding:20px 0px;
-  
-}
+  padding:24px 0px;  
+} /* grid */
 
 button{
-  margin:10px 0px;
+  margin:16px 0px;
   padding:5px;
   color:rgb(254, 254, 254);
   background-color:rgb(227, 24, 75);
+  cursor: pointer;
+  transition: background-color 0.2 ease;
   }
+
+button:hover{
+  background-color: #1f6feb;
+}  
 
 footer {
   background-color: #ffffff;
